@@ -1,5 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f4f3;
+}
 /*header*/
- a img {
+ .logo img {
     width: 100px;
     display: block;
     margin: auto;
@@ -17,9 +26,92 @@ nav ul li a {
     display: block;
     padding: 1rem;
     text-decoration: none;
-    color: rgb(0 0 0);
+    color: #000000;
 }
 
 nav ul li a:hover {
-    color: brown;
+    background-color: #000000;
+    color: #f6f4f3;
 }
+
+/*banner*/
+#banner {
+    background-image: url(imagenes/banner.jpeg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    
+}
+
+#banner h1 {
+    font-size: 3rem;
+    padding-bottom: 25px;
+}
+
+#banner p {
+    font-size: 1rem;
+}
+
+/*cards*/
+.container {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.card {
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 50%;
+}
+
+.card .content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card .content h2 {
+    margin-bottom: 15px;
+}
+
+.card .content p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.card .content a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: brown;
+    border: 1 solid brown;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+.card .content a:hover {
+    background: brown;
+    color: #ffffff;
+}
+
+/*footer*/
