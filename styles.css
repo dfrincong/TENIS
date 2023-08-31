@@ -7,6 +7,8 @@
 body {
     background-color: #f6f4f3;
 }
+
+/*main*/
 /*header*/
  .logo img {
     width: 100px;
@@ -60,7 +62,7 @@ nav ul li a:hover {
 .container {
     width: 100%;
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 
 .card {
@@ -115,3 +117,40 @@ nav ul li a:hover {
 }
 
 /*footer*/
+.foot {
+    background-color: #ffbd59;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.foot_2 p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/*historia*/
+#history {
+    width: 80%;
+    padding: 20px;
+    margin: 50px auto;
+    line-height: 1.5;
+    background-color: lightblue;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: justify;
+}
+
+#history img {
+    width: 300px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+}
+
+#history h1 {
+    font-size: 30px;
+}
+#history p {
+    font-size: 18px;
+}

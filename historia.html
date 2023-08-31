@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenis</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <a href="./main.html"><img src="imagenes/logo.jpeg" alt="logo"></a>
-        <div>
-            <nav>
-                <a href="./main.html">INICIO</a>
-                <a href="./historia.html">HISTORIA</a>
-                <a href="#">¿CÓMO JUGAR?</a>
-                <a href="#">TORNEOS</a>
-                <a href="#">JUGADORES</a>
-            </nav>
-        </div>
+        <a class="logo" href="./main.html">
+            <img src="imagenes/logo.png" alt="logo">
+        </a>
+        <nav>
+            <ul> 
+                <li><a href="./main.html">INICIO</a></li>
+                <li><a href="./historia.html">HISTORIA</a></li>
+                <li><a href="./como_jugar.html">¿CÓMO JUGAR?</a></li>
+                <li><a href="./torneos.html">TORNEOS</a></li>
+                <li><a href="./jugadores.html">JUGADORES</a></li>
+            </ul>
+        </nav>
     </header>
-    <div>
+
+    <div id="history">
         <img src="imagenes/historia.jpeg" alt="imagen pelota">
         <h1>HISTORIA</h1>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis in eligendi iusto autem doloribus a molestias vero architecto eum quae asperiores reiciendis consequuntur eius esse provident facere, nulla sapiente voluptate.</p>
@@ -28,13 +33,14 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis in eligendi iusto autem doloribus a molestias vero architecto eum quae asperiores reiciendis consequuntur eius esse provident facere, nulla sapiente voluptate.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis in eligendi iusto autem doloribus a molestias vero architecto eum quae asperiores reiciendis consequuntur eius esse provident facere, nulla sapiente voluptate.</p>
     </div>
+
     <footer>
-        <div>
+        <div class="foot">
             <p>La historia del tenis es una mezcla de tradición y evolución constante. Ha pasado de ser un juego aristocrático a convertirse en un deporte accesible para personas de todas las edades y origenes; dejando una huella duradera en la cultura deportiva y mundial.</p>
         </div>
-        <div>
-            <a href="./main.html"><img src="imagenes/logo.jpeg" alt="logo"></a>
-            <p>Diseñado por Daniel Felipe Rincón Guerrero</p>
+        <div class="foot_2">
+            <a class="logo" href="./main.html"><img src="imagenes/logo.png" alt="logo"></a>
+            <p>Diseñado por: Daniel Felipe Rincón Guerrero</p>
         </div>
     </footer>
 </body>
