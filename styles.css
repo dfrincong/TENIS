@@ -8,7 +8,7 @@ body {
     background-color: #f6f4f3;
 }
 
-/*main*/
+/*MAIN*/
 /*header*/
  .logo img {
     width: 100px;
@@ -129,7 +129,7 @@ nav ul li a:hover {
     margin-bottom: 15px;
 }
 
-/*historia*/
+/*HISTORIA*/
 #history {
     width: 80%;
     padding: 20px;
@@ -155,7 +155,7 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/*torneos*/
+/*TORNEOS*/
 .colum {
     display: flex;
     flex-direction: column;
@@ -190,12 +190,45 @@ nav ul li a:hover {
     padding: 15px;
 }
 
-#slam .row {
+#slam {
     display: flex;
-    flex-direction: row;
-    width: 100vw;
+    flex-direction: column;
+    width: 80vw;
+    margin: 50px auto;
 }
 
-#slam .row .der {
+#slam .row {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#slam .row img {
+    width: 50%;
+    height: auto;
+    max-width: 300px;
+    margin: auto 15px;
+}
+
+#slam .row img.izq {
+    float: left;
+}
+
+#slam .row img.der {
     float: right;
 }
+
+#slam .row h2 {
+    font-size: 30px;
+    margin: 0px 15px;
+    text-align: center;
+}
+
+#slam .row p {
+    font-size: 18px;
+    margin: 0px 15px;
+}
+
+/* JUGADORES */
+
