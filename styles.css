@@ -154,3 +154,48 @@ nav ul li a:hover {
 #history p {
     font-size: 18px;
 }
+
+/*torneos*/
+.colum {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+.colum img {
+    width: 100%;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    border-top: 5px solid #000000;
+    border-right: 5px solid #000000;
+}
+
+.text {
+    text-align: center;
+    margin: 50px 30px;
+
+}
+
+.text h1 {
+    font-size: 36px;
+    margin-top: 15px;
+}
+
+.text p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 2;
+    padding: 15px;
+}
+
+#slam .row {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+#slam .row .der {
+    float: right;
+}

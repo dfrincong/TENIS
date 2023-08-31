@@ -4,62 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenis</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
-        <a href="./main.html"><img src="imagenes/logo.jpeg" alt="logo"></a>
-        <div>
-            <nav>
-                <a href="./main.html">INICIO</a>
-                <a href="./historia.html">HISTORIA</a>
-                <a href="./como_jugar.html">¿CÓMO JUGAR?</a>
-                <a href="./torneos.html">TORNEOS</a>
-                <a href="#">JUGADORES</a>
-            </nav>
-        </div>
+        <a class="logo" href="./main.html">
+            <img src="imagenes/logo.png" alt="logo">
+        </a>
+        <nav>
+            <ul> 
+                <li><a href="./main.html">INICIO</a></li>
+                <li><a href="./historia.html">HISTORIA</a></li>
+                <li><a href="./como_jugar.html">¿CÓMO JUGAR?</a></li>
+                <li><a href="./torneos.html">TORNEOS</a></li>
+                <li><a href="./jugadores.html">JUGADORES</a></li>
+            </ul>
+        </nav>
     </header>
-    <div>
+
+    <div class="colum">
         <img src="imagenes/grand_slam.jpeg" alt="imagen pelota">
-        <h1>¿Sabes qué significa "grand slam en el mundo del tenis?"?</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis in eligendi iusto autem doloribus a molestias vero architecto eum quae asperiores reiciendis consequuntur eius esse provident facere, nulla sapiente voluptate.</p>
+        <div class="text">
+            <h1>¿Sabes qué significa Grand Slam en el mundo del tenis?</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis perferendis saepe ratione tempore id dolorem atque ut! Odio quia deserunt fugit aspernatur recusandae error dolorum officiis! Rerum officia amet quos.</p>
+        </div>
     </div>
-    <section>
-        <div>
-            <img src="imagenes/ao_open.jpg" alt="logo Abierto de Australia">
-            <h2>Australian Open</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
-            </p>
+
+    <section id="slam">
+        <div class="row">
+            <img class="der" src="imagenes/ao_open.jpg" alt="logo Abierto de Australia">
+            <div class="text">
+                <h2>Australian Open</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
+                </p>
+            </div>
         </div>
-        <div>
-            <img src="imagenes/roland_garros.jpg" alt="logo Roland garros">
-            <h2>Roland Garros</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
-            </p>
+        <div class="row">
+            <img class="izq" src="imagenes/roland_garros.jpg" alt="logo Roland garros">
+            <div class="text">
+                <h2>Roland Garros</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
+                </p>
+            </div>
         </div>
-        <div>
-            <img src="imagenes/wimbledon.jpg" alt="logo Wimbledon">
-            <h2>Wimbledon</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
-            </p>
+        <div class="row">
+            <img class="der" src="imagenes/wimbledon.jpg" alt="logo Wimbledon">
+            <di class="text">
+                <h2>Wimbledon</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
+                </p>
+            </div>
         </div>
-        <div>
-            <img src="imagenes/us_open.jpg" alt="logo Abierto de Estados Unidos">
-            <h2>US Open</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
-            </p>
+        <div class="row">
+            <img class="izq" src="imagenes/us_open.jpg" alt="logo Abierto de Estados Unidos">
+            <div class="text">
+                <h2>US Open</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at illum inventore recusandae impedit voluptas tempora iusto quod totam unde autem itaque, neque numquam molestias in sapiente ratione voluptatum quos.
+                </p>
+            </div>
         </div>
     </section>
     <footer>
-        <div>
+        <div class="foot">
             <p>Ganar uno o más títulos de Grand Slam es un hito importante en la carrero de cualquier tenista y estos torneos a menudo definen las eras y legados de los grandes jugadores</p>
         </div>
-        <div>
-            <a href="./main.html"><img src="imagenes/logo.jpeg" alt="logo"></a>
-            <p>Diseñado por Daniel Felipe Rincón Guerrero</p>
+        <div class="foot_2">
+            <a class="logo" href="./main.html"><img src="imagenes/logo.png" alt="logo"></a>
+            <p>Diseñado por: Daniel Felipe Rincón Guerrero</p>
         </div>
     </footer>
 </body>
