@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,6 +7,7 @@
 }
 
 body {
+    font-family: 'Josefin Sans', sans-serif;
     background-color: #f6f4f3;
 }
 
@@ -31,17 +34,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #000000;
+    background-color: #cdcdcd;
     color: #f6f4f3;
 }
 
 /*footer*/
 .foot {
-    background-color: #ffbd59;
+    background-color: #99d3df;
     padding: 20px;
     font-size: 25px;
     line-height: 1.5;
     text-align: center;
+    margin-top: 50px;
 }
 
 .foot_2 p {
@@ -50,35 +54,54 @@ nav ul li a:hover {
 }
 
 
+/* main.html */
+
 /* banner */
-#banner_1, #banner_2 {
+#banner_1 {
     height: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #ffffff;    
+    color: #ffffff;
+    opacity: 0.5;
+    font-weight: bold;
 }
 
-#banner_1 h1, #banner_2 h1 {
+#banner_1 h1 {
     font-size: 3rem;
     padding-bottom: 25px;
 }
 
-#banner_1 p, #banner_2 p {
-    font-size: 1rem;
+#banner_1 p {
+    font-size: 1.5rem;
 }
 
 #banner_1 {
     background-image: url(imagenes/main/banner.jpeg);
 }
 
-#banner_2 {
-    background-image: url(imagenes/jugadores/los_mejores.jpeg);
+/* texto */
+.lista {
+    margin-left: 50px;
 }
 
-/* main.html */
+.lista dt {
+    font-weight: bold;
+}
+
+.lista dt, .lista dd {
+    line-height: 1.5;
+}
+
+.lista h2, .lista dd {
+    margin-bottom: 1.5rem;
+}
+
+hr {
+    border: 0;
+}
 
 /*cards*/
 .container {
@@ -145,7 +168,7 @@ nav ul li a:hover {
     padding: 20px;
     margin: 50px auto;
     line-height: 1.5;
-    background-color: lightblue;
+    background-color: #88bbd6;
     box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     text-align: justify;
@@ -165,6 +188,12 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
+abbr {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
 /* torneos.html */
 
 /* first part */
@@ -175,7 +204,7 @@ nav ul li a:hover {
 
 }
 
-.colum img {
+.colum figure img {
     width: 100%;
     max-width: 1000px;
     display: block;
@@ -195,6 +224,8 @@ nav ul li a:hover {
     margin-top: 15px;
 }
 
+
+
 .text p {
     text-align: justify;
     font-size: 18px;
@@ -211,11 +242,11 @@ nav ul li a:hover {
 }
 
 #slam .row {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     padding: 20px;
     line-height: 1.5;
     text-align: justify;
-    border-bottom: 1px solid #000000;
+    border-bottom: 3px solid #000000;
 }
 
 #slam .row img {
@@ -248,5 +279,13 @@ nav ul li a:hover {
 
 /* carousel */
 .carousel-caption {
-    padding-bottom: 4rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    color: #000000;
+}
+
+.carousel-item img {
+    opacity: 0.7;
 }
