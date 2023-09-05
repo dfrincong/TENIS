@@ -58,8 +58,11 @@ nav ul li a:hover {
 
 /* banner */
 #banner_1 {
-    height: 100vh;
+    background-image: url(imagenes/main/banner.jpeg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,10 +79,7 @@ nav ul li a:hover {
 
 #banner_1 p {
     font-size: 1.5rem;
-}
-
-#banner_1 {
-    background-image: url(imagenes/main/banner.jpeg);
+    margin: 20px;
 }
 
 /* texto */
@@ -164,7 +164,7 @@ hr {
 /* historia.html */
 
 #history {
-    width: 80%;
+    width: 80vw;
     padding: 20px;
     margin: 50px auto;
     line-height: 1.5;
@@ -224,8 +224,6 @@ abbr {
     margin-top: 15px;
 }
 
-
-
 .text p {
     text-align: justify;
     font-size: 18px;
@@ -242,6 +240,7 @@ abbr {
 }
 
 #slam .row {
+    width: 80vw;
     background-color: #ffffff;
     padding: 20px;
     line-height: 1.5;
@@ -282,8 +281,9 @@ abbr {
     font-weight: bold;
 }
 
-.carousel-caption p {
+.carousel-caption h2, .carousel-caption p {
     color: #000000;
+    font-weight: bold;
 }
 
 .carousel-item img {

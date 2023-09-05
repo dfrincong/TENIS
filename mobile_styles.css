@@ -1,4 +1,5 @@
-/* header */
+/* header  */
+/* menú hamburguesa */
 .menu-icon img {
     width: 30px;
     height: 30px;
@@ -10,6 +11,11 @@
 }
 
 @media (max-width: 768px) {
+    header .logo img {
+        width: 100px;
+        display: block;
+        margin-left: 10px;
+    }
     .checkbtn {
         display: block;
     }
@@ -19,6 +25,7 @@
         top: 20px;
         right: 20px;
         cursor: pointer;
+        padding-top: 15px;
     }
     nav ul {
         display: block;
@@ -45,4 +52,97 @@
     }
 }
 
-/* banner */
+/* main */
+
+@media (max-width: 768px) {
+    /* banner */
+    #banner_1 h1 {
+        font-size: 2rem;
+        padding-bottom: 25px;
+        border: 10px;
+    }
+    #banner_1 p {
+        font-size: 1rem;
+        margin: 20px;
+    }
+
+    /* text */
+    .lista  {
+        margin: 0 30px;
+    }
+
+    /* cards */
+    .container {
+        flex-direction: column;
+        width: 75vw;
+        margin: auto;
+    }
+    .card {
+        margin-bottom: 50px;
+    }
+}
+
+/* historia.html */
+
+@media (max-width: 650px) {
+    #history img {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    #history h1 {
+        font-size: 2rem;
+    }
+    #history p {
+        font-size: 1rem;
+    }
+}
+
+/* torneos */
+
+@media (max-width: 768px) {
+    /* first part */
+    .text h1 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    .text p {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 2;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    /* last part */
+    #slam .row img {
+        width: 100%;
+        margin: auto;
+    }
+    #slam .row img.izq {
+        float: inherit;
+    }
+    #slam .row img.der {
+        float: inherit;
+    }
+    #slam .row h2 {
+        font-size: 24px;
+    }
+    #slam .row p {
+        font-size: 15px;
+    }
+}
+
+/* jugadores.html */
+
+@media (max-width: 420px) {
+    /* carousel */
+    .carousel-caption h2 {
+        font-size: 1.25rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+        line-height: normal;
+        margin-bottom: 0px;
+    }
+}
